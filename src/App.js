@@ -1,5 +1,6 @@
 import React from 'react';
 import Playground from './components/Playground';
+import TodoList from './components/TodoList';
 
 const App = () => {
   return (
@@ -7,7 +8,8 @@ const App = () => {
       <div className='container p-5'>
         <h3>Axios Demo</h3>
         <hr />
-        <Playground />
+        {/* <Playground /> */}
+        <TodoList />
       </div>
     </>
   );
