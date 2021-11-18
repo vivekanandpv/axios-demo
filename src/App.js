@@ -1,4 +1,5 @@
 import React from 'react';
+import ApiAggregation from './components/ApiAggregation';
 import Playground from './components/Playground';
 import TodoList from './components/TodoList';
 
@@ -9,7 +10,8 @@ const App = () => {
         <h3>Axios Demo</h3>
         <hr />
         {/* <Playground /> */}
-        <TodoList />
+        {/* <TodoList /> */}
+        <ApiAggregation />
       </div>
     </>
   );
