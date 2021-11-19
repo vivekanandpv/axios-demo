@@ -2,6 +2,7 @@ import React from 'react';
 import ApiAggregation from './components/ApiAggregation';
 import LoginForm from './components/LoginForm';
 import Playground from './components/Playground';
+import Sample from './components/Sample';
 import TodoList from './components/TodoList';
 
 const App = () => {
@@ -13,7 +14,8 @@ const App = () => {
         {/* <Playground /> */}
         {/* <TodoList /> */}
         {/* <ApiAggregation /> */}
-        <LoginForm />
+        {/* <LoginForm /> */}
+        <Sample />
       </div>
     </>
   );
